@@ -1,0 +1,29 @@
+.List-box {
+    margin: auto; 
+    background: #d6dee1;
+}
+
+.card-header {
+    background: rgb(20, 20, 80);
+}
+
+#taskList li {
+    background-color:white;
+    border: 1.5 gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+#taskList li .deleteBtn {
+    background-color: rgb(156, 4, 4);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#taskList li .deleteBtn:hover {
+    background-color: gray;
+}
